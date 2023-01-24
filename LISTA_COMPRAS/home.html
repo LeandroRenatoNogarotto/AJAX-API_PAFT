@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lista de Compras</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <body>
+    <div id="area">
+      <form id="formulario" autocomplete="off">
+        <fieldset>
+          <legend>Novo Item</legend>
+          <label>Nome:</label><input class="campo_produto" type="text"><br> <br>
+          <label>Quantidade:</label><input class="campo_quantidade" type="number" min="0"><br> <br>
+
+          <form class="type">
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Kg
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Grama
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Litro
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> ml
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2">Unidade
+          </form>
+
+          <input class="btn_submit" type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    </div>
+
+    <section class="section__table">
+      <h2>Produtos adicionados:</h2>
+      <table class="lista__table">
+        <thead class="lista__table__thead">
+          <tr>
+            <th></th>
+            <th>Nome</th>
+            <th>Quantidade</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="lista__table__tbody">
+        </tbody>
+      </table>
+    </section>
+
+    <div id="lista_compras">
+
+    </div>
+
+  </body>
+
+</html>
