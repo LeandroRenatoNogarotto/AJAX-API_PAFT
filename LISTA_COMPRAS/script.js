@@ -1,11 +1,11 @@
 const listaProdutos = [
   {
-    nome: "Coxinha",
-    quantidade: 15,
+    nome: "item 1",
+    quantidade: 1,
     tipo: "Un."
   }, {
-    nome: "Carne",
-    quantidade: 20,
+    nome: "item 2",
+    quantidade: 2,
     tipo: "Kg"
   }
 ]
